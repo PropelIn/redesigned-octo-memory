@@ -13,7 +13,16 @@ function App() {
       </header>
       <main className="App-main">
         <div className="top">
-          {/* TODO: Generate random image */} 
+          {/* TODO: Generate random image */}
+          <div id="splide" className="splide">
+              <div className="splide__track">
+                <ul className="splide__list">
+                  <li className="splide__slide">slide !!!</li>
+                  <li className="splide__slide">slide !!!</li>
+                  <li className="splide__slide">slide !!!</li>
+                </ul>
+              </div>
+            </div>
         </div>
         <div className="bottom">
           <button>
